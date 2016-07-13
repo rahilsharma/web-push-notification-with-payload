@@ -2,11 +2,13 @@
 Example of web based push notifications with payload.
 
 Usage :
+
 1)Install all node packages using "npm install"
 
 2)We are using "web-push-encryption" package . Link -->> https://github.com/GoogleChrome/web-push-encryption
 
 3)For sending push notifications , just make a post call to http://localhost:3000/gcm with parameters subscription and messageToSend. 
+
 -----------------------------------------------------------------------------------------------------------------------------------------
  var subscription = '{"endpoint":"https://android.googleapis.com/gcm/send/cdOyBZ-6_CY:APA91bHWX9oF1uXgwM7kDoNr6tnHf9zWuX2SJJ4cf1g2qjzKvokBybYCYq5DJnB5asrWrYekDvAT9S_Y9RqKMtCPNf2kJz4R2j_kl8G92dP3PbqYEqaQpanlqBf4w7VSjr1ZrvuGoyh4","keys":{"p256dh":"BENro4XidqEqULgMu_X-9cx6eEfAGwXyBgdCi65A1wBF9pXhl03ZDNUTLcvQQs_yq09PpNVSDyjmM5fEAxMBkCE=","auth":"RZcJuQ2HRfq1Eank1qazgA=="}}';
  
